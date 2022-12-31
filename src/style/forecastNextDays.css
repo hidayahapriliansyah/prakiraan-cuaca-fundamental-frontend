@@ -1,0 +1,52 @@
+forecast-nextdays {
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+forecast-nextdays .card-group {
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  align-content: stretch;
+}
+
+forecast-nextdays .card-group::-webkit-scrollbar-thumb {
+  background-color: red;
+}
+
+forecast-nextdays .card {
+  display: grid;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1em;
+  overflow: hidden;
+  text-align: center;
+  padding: 15px;
+  background: linear-gradient(-210deg, #a6d1e6a8, rgba(255, 255, 255, 0.87) 150%);
+  box-shadow: 0px 3px 10px -3px rgba(0, 0, 0, 0.2);
+}
+
+forecast-nextdays .card img {
+  display: block;
+  margin: auto;
+}
+
+forecast-nextdays .next-icon {
+  display: block;
+  margin: 10px;
+  width: 80px;
+}
+
+forecast-nextdays .next-temp {
+  font-size: 18px;
+}
+
+.title-forecastnext {
+  text-align: center;
+  margin: 5px auto;
+}

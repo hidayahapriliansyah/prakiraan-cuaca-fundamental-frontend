@@ -11,9 +11,12 @@ import renderUI from './script/view/main';
 import loadingElement from './script/view/render/loader';
 
 document.addEventListener('DOMContentLoaded', () => {
+  const containerElement = document.querySelector('.container');
+  containerElement.style.display = 'none';
   document.body.append(loadingElement);
   window.addEventListener('load', () => {
     setTimeout(() => {
+      containerElement.style.display = 'block';
       loadingElement.remove();
     }, 500);
     renderUI();

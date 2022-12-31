@@ -1,5 +1,9 @@
+# Aplikasi Menampilkan Prakiraan Cuaca dari OpenWeatherMap
+**Submission Kelas Fundamental Front-End Web Development Dicoding**
+
 Halo, Semuanya! Ini adalah project yang saya kerjakan untuk memenuhi submission kelas Belajar Fundamental Front-End Web Development Dicoding.
 Alhamdulillah saya dapat kempatan untuk belajar di tingkat menengah program Lintasarta Cloudeka Digischool 2022. Alhamdulillah ya Allah ... seneng banget.
+Jika temen temen mau download aplikasinya boleh banget kok. Yang penting kalau pakai apinya pakai akun masing masing, ya. Jangan pakai key akun saya yang dipakai di aplikasi ini. Aplikasi ini menggunakan 3 API dan semuanya gratis. Hanya saja dari 3 API tersebut, 2 diantaranya harus daftar dulu ke web resminya buat dapet keynya.
 
 Alhamdulillah saya sudah berhasil menyelesaikan submission di kelas ini. Submission yang telah saya kerjakan sudah memenuhi kriteria :
 

@@ -1,0 +1,74 @@
+
+/* today-weather */
+today-weather {
+  display: block;
+  background: linear-gradient(210deg, #f7fcff, #d8f2ffc2);
+  backdrop-filter: blur(10px);
+  border-radius: 1em;
+  padding: 20px;
+}
+
+today-weather .sunrise-set {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 30px auto;
+}
+
+today-weather .card-with-detail {
+  background: linear-gradient(-210deg, #a6d1e6a8, rgba(255, 255, 255, 0.87) 90%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-radius: 1em;
+  box-shadow: 0px 3px 10px -3px rgba(0, 0, 0, 0.1);
+  margin: 10px auto;
+}
+
+today-weather .weather-time-short {
+  display: flex;
+  justify-content: space-around;
+}
+
+today-weather .time-short {
+  font-size: 36px;
+}
+
+today-weather .weather-short {
+  text-align: center;
+}
+
+.sunrise-icon {
+  background: url('../assets/img/weather-icon/sunrise.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.sunset-icon {
+  background: url('../assets/img/weather-icon/sunset.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.sunrise-set-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wt-icon img {
+  max-width: 80px;
+  margin: 10px auto;
+}
+
+
+/* end today-weather */

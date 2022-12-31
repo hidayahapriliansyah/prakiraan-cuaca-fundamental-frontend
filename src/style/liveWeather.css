@@ -1,0 +1,147 @@
+live-weather {
+  text-align: center;
+}
+
+live-weather h1 {
+  font-size: 48px;
+  margin: 15px auto;
+  padding: 0;
+}
+
+live-weather .country-id {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  background-color: #a6d1e671;
+  padding: 8px 10px;
+  border-radius: 0.7em;
+}
+
+live-weather .country-code {
+  margin-right: 10px;
+}
+
+live-weather .description {
+  margin-top: 10px;
+}
+
+live-weather .image img.icon-image {
+  margin: 50px auto;
+  width: 80%;
+  max-width: 200px;
+}
+
+live-weather .extended-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.extended-info .wind-speed {
+  min-width: 30%;
+}
+
+.extended-info .temp {
+  min-width: 30%;
+}
+
+.extended-info .temp-max-min {
+  min-width: 30%;
+} 
+
+live-weather .temp {
+  font-size: 48px;
+}
+
+live-weather .icon {
+  width: 25px;
+  height: 25px;
+  margin: auto;
+  fill: #3D3C42;
+  margin: 8px auto;
+}
+
+.detail-info {
+  margin: 10px auto;
+  margin-top: -20px;
+  margin-bottom: 40px;
+  display: none;
+  transition: all 0.5s;
+}
+
+.detail-info.active {
+  display: block;
+  height: fit-content;
+  transition: all 0.5s;
+}
+
+.detail-info table {
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+  outline: 1px solid white;
+  outline-offset: -1px;
+}
+
+.detail-info td {
+  border: 1px solid white;
+  padding: 3px 10px;
+  text-align: left;
+  min-width: 150px;
+}
+
+.detail-info tr td:nth-child(1){
+  text-align: right;
+}
+
+.btn-detail {
+  margin: 40px auto;
+  border-radius: 2em;
+  min-width: 100px;
+  border: 1px solid #a6d1e671;
+  font-weight: normal;
+  background-color: white;
+}
+
+.btn-detail:hover {
+  background-color: transparent;
+  border: 1px solid white ;
+}
+
+table {
+  margin: auto;
+}
+
+table thead {
+  font-weight: bold;
+  text-align: center;
+}
+
+table input {
+  border-radius: 0.5em;
+  border-style: none;
+  height: fit-content;
+  font-size: 16px;
+  margin: 5px auto;
+  padding: 5px 10px;
+}
+
+.detail-info td {
+  padding: 10px;
+}
+
+button {
+  display: block;
+  margin: auto;
+  padding: 5px;
+  width: 4em;
+  border-radius: 0.5em;
+  border-style: none;
+  background-color: white;
+  color: #181D31;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: bold;
+}
